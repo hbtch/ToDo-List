@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../public/images/todolistunsplash.jpg'); /* Путь к вашей фоновой картинке */
+  background-size: cover; /* Позволяет масштабировать изображение так, чтобы оно полностью заполнило заданный размер контейнера */
+}

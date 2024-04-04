@@ -5,11 +5,13 @@ import "./content.css"
 function Content() {
     return (
       <React.Fragment>
-        <ListItem name="Посмотреть урок по реакту"/>
-        <ListItem name="Сделать домашку"/>
-        <ListItem name="Приготовить ужин"/>
-        <ListItem name="Покормить кота"/>
-        <ListItem name="Сходить на тренировку"/>
+        <div className="todo-list">
+        <ListItem className="todo-item" name="Посмотреть урок по реакту"/>
+        <ListItem className="todo-item" name="Сделать домашку"/>
+        <ListItem className="todo-item" name="Приготовить ужин"/>
+        <ListItem className="todo-item" name="Покормить кота"/>
+        <ListItem className="todo-item" name="Сходить на тренировку"/>
+        </div>
       </React.Fragment>
     );
   }
